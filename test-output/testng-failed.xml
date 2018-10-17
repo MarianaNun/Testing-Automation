@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ar.com.informatorio.calidad.test.LoginTest">
+      <class name="Services.InsumoTest">
         <methods>
-          <include name="abrirNavegador"/>
-          <include name="cerrarNavegador"/>
-          <include name="AuthenticationUsers"/>
-          <include name="loginUsers"/>
-          <include name="getDriver"/>
+          <include name="setUp"/>
+          <include name="addProduct"/>
+          <include name="getUsingQueryParam"/>
+          <include name="deleteProduct"/>
         </methods>
-      </class> <!-- ar.com.informatorio.calidad.test.LoginTest -->
+      </class> <!-- Services.InsumoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

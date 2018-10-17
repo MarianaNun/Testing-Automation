@@ -5,10 +5,10 @@ public class Insumo {
 	String nombre;
 	int cantidad;
 	
-	public Insumo(int id, String nombre, int cantidad) {
+	public Insumo(int id, String nombre, int cant) {
 		this.id= id;
 		this.nombre= nombre;
-		this.cantidad= cantidad;
+		this.cantidad= cant;
 	}
 
 	public int getId() {
@@ -31,8 +31,8 @@ public class Insumo {
 		return cantidad;
 	}
 
-	public void setCantidad(int cantidad) {
-		this.cantidad = cantidad;
+	public void setCantidad(int cant) {
+		this.cantidad = cant;
 	}
 	
 
